@@ -1,0 +1,12 @@
+{
+  "name": "RadioAppR",
+  "displayName": "RadioAppR",
+  "expo": {
+    "name": "RadioAppR",
+    "slug": "RadioAppR",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
