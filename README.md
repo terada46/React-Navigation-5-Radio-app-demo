@@ -3,20 +3,22 @@
 #### INTRODUCTION
 DEMO模仿自日本广播APP，升级到React Navigation 5。
 
-#### RUN in development
+#### Run on iOS simulator
 
-`expo start`
+- Run `expo start` and press i from the command line.
+
+- Run on iOS simulator from the browser-based DevTools UI
 
 #### NOTE
 
-If you meet the warning: `Calling getNode() on the ref of an Animated component is no longer necessary`
+Warning `Calling getNode() on the ref of an Animated component is no longer necessary`
 
-Just go to open `node_modules/react-native-scrollable-tab-view/index.js`, find `this.scrollView.getNode()` (there are three) 
-and modify like this:
+To quick fix it, go to `node_modules/react-native-scrollable-tab-view/index.js`, find `this.scrollView.getNode()` (there are three fo them)  and modify to this:
 
 `this.scrollView.scrollTo`
 
-then save it. This will fix it.
+then save it. 
+
 
 #### SCREENSHOTS
 
